@@ -6,6 +6,7 @@
   "description": "The popular Reset CSS by meyerweb as an Aphrodite stylesheet.",
   "scripts": {
     "build": "tsc",
+    "prepublish": "npm run build",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
